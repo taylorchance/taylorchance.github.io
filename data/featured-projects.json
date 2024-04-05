@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Arema",
+    "featuredImage": "/images/websites/arema.png",
+    "tags": ["VueJS", "BulmaCSS", "Firebase", "NodeJS", "Stripe", "Webhooks", "Sendgrid SMS"],
+    "description": "Schedules, jobs, and payments all in one chat.",
+    "link": "https://staging.arema.app/"
+  },
+  {
+    "name": "Marfafa",
+    "featuredImage": "/images/websites/marfafa.png",
+    "tags": ["VueJS", "BulmaCSS", "Firebase", "NodeJS", "Stripe"],
+    "description": "The easiest way to design, create and send custom products to your customers, securely and privately. Provide clients with branded gifts worldwide without needing their address, anytime you choose.",
+    "link": "https://marfafa.com/"
+  },
+  {
+    "name": "Everywork",
+    "featuredImage": "/images/websites/everywork.png",
+    "tags": ["VueJS", "BulmaCSS", "Firebase", "NodeJS", "Stripe"],
+    "description": "A generic freelancer application. The stack was used as the inspiration for later projects.",
+    "link": "https://beta.everywork.com/"
+  },
+  {
+    "name": "Security Compass",
+    "featuredImage": "/images/websites/securitycompass.png",
+    "tags": ["NextJS", "Headless WP", "GraphQL", "Typescript", "TailwindCSS"],
+    "description": "Built with NextJS, TypeScript and SASS using Apollo Client in the frontend and implementing Incremental Static Regeneration building feature of NextJS. The backend is built with a Headless WP using a WPGraphQL plugin.",
+    "link": "https://www.securitycompass.com/"
+  }
+]
