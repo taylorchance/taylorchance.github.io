@@ -5,6 +5,7 @@ import ScrollSmootherInit from "@/components/wrappers/ScrollSmootherInit";
 import CustomCursor from "@/components/wrappers/CustomCursor";
 import Nav from "@/components/nav/Nav";
 import Contact from "@/components/Contact";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const anekBangla = Anek_Bangla({
@@ -69,6 +70,7 @@ export default function RootLayout({
           </ScrollSmootherInit>
         </CustomCursor>
       </body>
+      <GoogleTagManager gtmId="G-61XTPW35XV" />
     </html>
   );
 }
