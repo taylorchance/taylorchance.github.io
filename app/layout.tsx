@@ -71,6 +71,7 @@ export default function RootLayout({
         </CustomCursor>
       </body>
       <GoogleTagManager gtmId="G-61XTPW35XV" />
+      <GoogleTagManager gtmId="GT-5NGRNT42" />
     </html>
   );
 }
