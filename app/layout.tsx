@@ -5,7 +5,7 @@ import ScrollSmootherInit from "@/components/wrappers/ScrollSmootherInit";
 import CustomCursor from "@/components/wrappers/CustomCursor";
 import Nav from "@/components/nav/Nav";
 import Contact from "@/components/Contact";
-import { GoogleTagManager } from "@next/third-parties/google";
+import Script from "next/script"
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const anekBangla = Anek_Bangla({
@@ -61,6 +61,18 @@ export default function RootLayout({
         workSans.variable
       )}
     >
+    <Script id="google-site-tag"
+        strategy='lazyOnload'
+        src={`https://www.googletagmanager.com/gtag/js?id=G-61XTPW35XV`}
+      />
+      <Script id="google-analytics" strategy='lazyOnload'>
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-61XTPW35XV');
+        `}
+      </Script>
       <body className="group bg-slate-50 text-white">
         <CustomCursor>
           <Nav />
@@ -70,8 +82,8 @@ export default function RootLayout({
           </ScrollSmootherInit>
         </CustomCursor>
       </body>
-      <GoogleTagManager gtmId="G-61XTPW35XV" />
-      <GoogleTagManager gtmId="GT-5NGRNT42" />
+      {/* <GoogleTagManager gtmId="G-61XTPW35XV" /> */}
+      {/* <GoogleTagManager gtmId="GT-5NGRNT42" /> */}
     </html>
   );
 }
