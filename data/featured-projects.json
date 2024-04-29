@@ -1,8 +1,15 @@
 [
   {
+    "name": "Get the Recipe",
+    "featuredImage": "/images/websites/gettherecipe.png",
+    "tags": ["PWA", "NuxtJS", "Firebase", "NodeJS", "Gemini AI API"],
+    "description": "Remove the fluff from long winded recipes. Extract written instructions from Youtube recipes WIP. Also handles serving size and unit conversion, saving and note taking on recipes.",
+    "link": "https://gettherecipe.net/"
+  },
+  {
     "name": "Arema",
     "featuredImage": "/images/websites/arema.png",
-    "tags": ["VueJS", "BulmaCSS", "Firebase", "NodeJS", "Stripe", "Webhooks", "Sendgrid SMS"],
+    "tags": ["PWA", "VueJS", "BulmaCSS", "Firebase", "NodeJS", "Stripe", "Webhooks", "Sendgrid SMS"],
     "description": "Schedules, jobs, and payments all in one chat.",
     "link": "https://staging.arema.app/"
   },
